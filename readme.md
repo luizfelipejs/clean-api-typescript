@@ -18,4 +18,4 @@ Mas este tipo de arquitetura busca se despreender de qualquer framework ou datab
 .
 ## Videos e projetos que vi antes de fazer esse
 - <a href="https://github.com/otaviolemos/thewisedev-mailing">Otavio lemos the wise dev mailing<a/>
-- <a href="https://github.com/rocketseat-content/youtube-api-node-solid">Rocketsear Api solid<a/>
+- <a href="https://github.com/rocketseat-content/youtube-api-node-solid">Rocketseat Api solid<a/>
