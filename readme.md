@@ -17,5 +17,11 @@ Mas este tipo de arquitetura busca se despreender de qualquer framework ou datab
 - Nodemailer
 .
 ## Videos e projetos que vi antes de fazer esse
-- <a href="https://github.com/otaviolemos/thewisedev-mailing">Otavio lemos the wise dev mailing<a/>
-- <a href="https://github.com/rocketseat-content/youtube-api-node-solid">Rocketseat Api solid<a/>
+- <a href="https://github.com/otaviolemos/thewisedev-mailing">Otavio lemos the wise dev mailing</a>
+- <a href="https://github.com/rocketseat-content/youtube-api-node-solid">Rocketseat Api solid</a>
+
+## funcionalidades que falta para por no sistema
+- Envio de emails pra cada usuario cadastrado
+- Filas de usuarios para receber emails
+- Gerenciamento de emails especificos para cada usuario cadastrado
+- Authenticação com jwt 
