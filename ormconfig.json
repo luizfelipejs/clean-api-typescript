@@ -1,0 +1,9 @@
+{
+  "type": "sqlite",
+  "database": "./src/external/database.sqlite",
+  "migrations": ["./src/external/database/migrations/*"],
+  "entities": ["./src/external/models/*"],
+  "cli": {
+    "migrationsDir": "./src/external/database/migrations"
+  }
+}
