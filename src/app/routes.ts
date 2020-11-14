@@ -1,11 +1,11 @@
-import { Router } from "express";
-import { UserRepository } from "../external/repositories/UserRepository";
-import CreateUserCase from "../useCases/createUserCase";
-import { getCustomRepository } from "typeorm";
+import { Router } from "express"
+import { UserRepository } from "../external/repositories/UserRepository"
+import CreateUserCase from "../useCases/createUserCase"
+import { getCustomRepository } from "typeorm"
 import { CreateUserController } from '../adapters/createUserController'
-import { NodemailerEmailProvider } from "../external/providers/NodemailerEmailProvider";
+import { NodemailerEmailProvider } from "../external/providers/NodemailerEmailProvider"
  
-const routes = Router();
+const routes = Router()
 
 routes.post('/user', async (request, response) => {
   const customUserRepository = getCustomRepository(UserRepository);
