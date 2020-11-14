@@ -21,6 +21,6 @@ Mas este tipo de arquitetura busca se despreender de qualquer framework ou datab
 - <a href="https://github.com/rocketseat-content/youtube-api-node-solid">Rocketseat Api solid</a>
 
 ## funcionalidades que falta para por no sistema
-- Envio de emails pra cada usuario cadastrado <input type="checkbox" checked> 
+- Envio de emails pra cada usuario cadastrado <strong>finalizado</strong>
 - Gerenciamento de emails especificos para cada usuario cadastrado <input type="checkbox" checked> 
 - Authenticação com jwt <input type="checkbox" checked> 
