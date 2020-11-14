@@ -1,3 +1,3 @@
-export interface response { 
+export interface response {
   json: (object: object) => void;
 }

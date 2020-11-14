@@ -1,15 +1,15 @@
-import createUserCase from "../useCases/createUserCase";
-import { request } from './http/request';
-import { response } from './http/response';
-
+/* eslint-disable no-useless-constructor */
+import createUserCase from '../useCases/createUser/createUserCase'
+import { request } from './http/request'
+import { response } from './http/response'
 
 export class CreateUserController {
-  constructor(private createUserCase: createUserCase) {}
+  constructor (private createUserCase: createUserCase) {}
 
-  public async execute(request: request, response: response) {
-    const { email, name } = request.body;
-    const user = await this.createUserCase.execute({ email, name });
+  public async execute (request: request, response: response) {
+    const { email, name } = request.body
+    const user = await this.createUserCase.execute({ email, name })
 
-    return response.json({ message: "usuario criado", userCreated: user })
+    return response.json({ message: 'usuario criado', userCreated: user })
   }
 }
