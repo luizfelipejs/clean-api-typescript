@@ -14,7 +14,7 @@ export class NodemailerEmailProvider implements EmailProvider {
       from: message.from.name + '<' + message.from.email + '>',
       to: message.to.email,
       subject: message.subject,
-      text: message.body
+      html: message.body
     })
   }
 }
